@@ -14,7 +14,7 @@ using std::endl;
 #include "templatemethod/coffee_with_hook.h"
 using namespace templatemethod;  // NOLINT
 
-int main(int argc, char argv[]) {
+int main(int argc, char *argv[]) {
   Tea *tea = new Tea();
   Coffee *coffee = new Coffee();
 
